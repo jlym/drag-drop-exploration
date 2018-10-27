@@ -1,6 +1,10 @@
 import * as React from "react";
 
-export default () => (
+export interface Props {
+  description: string;
+}
+
+export default (props: Props) => (
   <div
     style={{
       border: "solid 2px",
@@ -9,6 +13,6 @@ export default () => (
       borderRadius: "7px"
     }}
   >
-    I am a card
+    {props.description}
   </div>
 );
