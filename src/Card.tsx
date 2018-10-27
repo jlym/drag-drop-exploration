@@ -27,6 +27,7 @@ export const Card = (props: Props) => (
             borderRadius: '7px',
             background: 'white',
           }}
+          onClick={(e) => { alert(); }}
         >
           {props.description}
         </div>        
