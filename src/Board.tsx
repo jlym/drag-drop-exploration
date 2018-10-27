@@ -9,8 +9,8 @@ export default () => {
         flexDirection: "row"
       }}
     >
-      <Column key="1" />
-      <Column key="2" />
+      <Column key="1" day="Monday" />
+      <Column key="2" day="Tuesday" />
     </div>
   );
 };

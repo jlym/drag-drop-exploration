@@ -1,7 +1,11 @@
 import * as React from "react";
 import Card from "./Card";
 
-export default () => {
+interface Props {
+  day: string;
+}
+
+export default (props: Props) => {
   const cards: Card[] = [
     <Card key="1" description="card 1" />,
     <Card key="2" description="card 2" />
@@ -13,6 +17,7 @@ export default () => {
         flexDirection: "column"
       }}
     >
+      <div>{props.day}</div>
       {cards}
     </div>
   );

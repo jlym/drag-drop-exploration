@@ -12,7 +12,6 @@ const App = () => (
   <div style={styles}>
     <Hello name="CodeSandbox" />
     <Board />
-    <h2>Start editing to see some magic happen {"\u2728"}</h2>
   </div>
 );
 
