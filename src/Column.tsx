@@ -1,20 +1,20 @@
-import * as React from "react";
-import Card from "./Card";
+import * as React from 'react';
+import { Card } from './Card';
 
 interface Props {
   day: string;
 }
 
 export default (props: Props) => {
-  const cards: Card[] = [
+  const cards: JSX.Element[] = [
     <Card key="1" description="card 1" />,
     <Card key="2" description="card 2" />
   ];
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column"
+        display: 'flex',
+        flexDirection: 'column'
       }}
     >
       <div>{props.day}</div>

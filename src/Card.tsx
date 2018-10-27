@@ -1,16 +1,16 @@
-import * as React from "react";
+import * as React from 'react';
 
 export interface Props {
   description: string;
 }
 
-export default (props: Props) => (
+export const Card = (props: Props) => (
   <div
     style={{
-      border: "solid 2px",
-      padding: "30px",
-      margin: "5px",
-      borderRadius: "7px"
+      border: 'solid 2px',
+      padding: '30px',
+      margin: '5px',
+      borderRadius: '7px'
     }}
   >
     {props.description}

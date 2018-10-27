@@ -1,11 +1,11 @@
-import * as React from "react";
-import { render } from "react-dom";
-import Hello from "./Hello";
-import Board from "./Board";
+import * as React from 'react';
+import { render } from 'react-dom';
+import Hello from './Hello';
+import Board from './Board';
 
 const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center"
+  fontFamily: 'sans-serif',
+  textAlign: 'center'
 };
 
 const App = () => (
@@ -15,4 +15,4 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));
